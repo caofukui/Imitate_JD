@@ -47,6 +47,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/mobile"
             android:id="@+id/reg_et_mobile"
+            android:singleLine="true"
             />
         <EditText
             android:layout_width="match_parent"
@@ -56,6 +57,7 @@
             android:inputType="numberPassword"
             android:layout_marginTop="18dp"
             android:layout_marginBottom="18dp"
+            android:singleLine="true"
             />
         <Button
             android:layout_width="match_parent"
