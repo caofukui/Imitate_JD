@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include layout="@layout/include_header"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:id="@+id/classfiy_left_rv"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <com.youth.banner.Banner
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:id="@+id/classfiy_left_banner"
+                />
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/classfiy_right_rv"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Imitate_JD</string>
+    <string name="daojishi">3S</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_loginandreg">登录/注册</string>
+    <string name="zhuce">立即注册</string>
+    <string name="pwd">请输入密码</string>
+    <string name="mobile">请输入手机号</string>
+    <string name="kefu">客服</string>
+    <string name="qqlogin">QQ登录</string>
+    <string name="weixinlogin">微信登录</string>
+    <string name="newuser">新用户注册</string>
+    <string name="duanxin">短息验证码登录</string>
+    <string name="login">登录</string>
+    <string name="miaosha">京东秒杀</string>
+    <string name="cart">购物车</string>
+    <string name="buy">立即购买</string>
+    <string name="addcart">加入购物车</string>
+    <string name="zonghe">综合排序</string>
+    <string name="xiaoliang">销量最高</string>
+    <string name="price">价格排序</string>
+    <string name="wangji">忘记密码</string>
+    <string name="yixuan">已选(0)</string>
+    <string name="xiadan">下单</string>
+    <string name="jian">-</string>
+    <string name="sum">0</string>
+    <string name="jia">+</string>
+    <string name="tuichu">退出登录</string>
+    <string name="price2">¥0.0</string>
+</resources>
